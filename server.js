@@ -17,11 +17,12 @@ var articleOne ={
                     </p>`
                     
     
-}
+};
+
 function createtemplate(data){
     var content = content(data);
 
-        var htmltemplate = { `
+        var htmltemplate =  `
         <html>
             <head>
                 <title>
@@ -50,9 +51,9 @@ function createtemplate(data){
                         </div>
                 </div>
             </body>
-        </html>`
+        </html>
 
-}
+`;
 
 app/get('/article-one',function (req,res){
   res.send(createtemplate(articleone));

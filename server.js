@@ -19,7 +19,7 @@ var articleOne ={
     
 }
 function createtemplate(data){
-    
+    var content = content(data);
 
         var htmltemplate = { `
         <html>

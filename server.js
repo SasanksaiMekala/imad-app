@@ -18,42 +18,46 @@ var articleOne ={
                     
     
 }
-var htmltemplate = { `
-<html>
-    <head>
-        <title>
-            Article one - Sasank Sai
-        </title>
-        <style>
-           
-            
-        </style>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class=container>
-            
-                <div>
-                    <a href="/">Home</a>
-                </div>
-                <br>
-                <h3>
-                    Article one
-                </h3>
-                <div>
-                    Aug 8 2017
-                    
-                </div>
-                <div>
-                    {content}
-                </div>
-        </div>
-    </body>
-</html>
-
+function createtemplate(data){
     
-}
 
+        var htmltemplate = { `
+        <html>
+            <head>
+                <title>
+                    Article one - Sasank Sai
+                </title>
+                <style>
+                   
+                    
+                </style>
+                <link href="/ui/style.css" rel="stylesheet" />
+            </head>
+            <body>
+                <div class=container>
+                    
+                        <div>
+                            <a href="/">Home</a>
+                        </div>
+                        <br>
+                        <h3>
+                            Article one
+                        </h3>
+                        <div>
+                            Aug 8 2017
+                            
+                        </div>
+                        <div>
+                            {content}
+                        </div>
+                </div>
+            </body>
+        </html>
+        
+            
+        }
+        
+}
 
 
 

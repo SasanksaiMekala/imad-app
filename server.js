@@ -21,15 +21,13 @@ var articleOne ={
 function createtemplate(data){
     var content = content(data);
 
-        var htmltemplate = { 
+        var htmltemplate = { `
         <html>
             <head>
                 <title>
                     Article one - Sasank Sai
                 </title>
                 <style>
-                   
-                    
                 </style>
                 <link href="/ui/style.css" rel="stylesheet" />
             </head>
@@ -52,7 +50,7 @@ function createtemplate(data){
                         </div>
                 </div>
             </body>
-        </html>
+        </html>`
 
 }
 

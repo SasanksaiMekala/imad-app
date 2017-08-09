@@ -53,10 +53,12 @@ function createtemplate(data){
             </body>
         </html>
 
-`;
+        `;
+        
+}        
 
 app/get('/article-one',function (req,res){
-  res.send(createtemplate(articleone));
+  res.send(createtemplate(articleOne));
 });
 
 
